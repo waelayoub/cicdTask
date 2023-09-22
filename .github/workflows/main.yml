@@ -19,7 +19,7 @@ jobs:
 
     - name: Installing flask library
       run: |
-        pip3 install flask, requests
+        pip3 install flask requests
 
     - name: Testing app with unittests
       run: |
