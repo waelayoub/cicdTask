@@ -1,6 +1,5 @@
 import unittest
 import requests
-from flask_app import app
 
 
 class TestingFlask(unittest.TestCase):
