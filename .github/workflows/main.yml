@@ -21,6 +21,10 @@ jobs:
       run: |
         pip3 install flask requests
 
+    - name: Running my flask app
+      run: |
+        python3 flask_app.py
+
     - name: Testing app with unittests
       run: |
         python3 test_flaskApp.py
